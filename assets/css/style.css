@@ -1,0 +1,121 @@
+:root {
+    --primary-color: #bdb9b9; 
+    --secondary-color: #4090d6;
+    --tertiary-color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* GLOBAL STYLING */
+body {
+    font-family: 'Lora', serif;
+   }
+   
+   h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+   }
+   
+/* HEADER STYLING*/
+header {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    flex-wrap: wrap;
+}
+
+h1 {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: left;
+}
+
+h1 a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+header nav {
+    margin: 7px 0;
+  }
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-decoration: none;
+    color: var(--tertiary-color);
+  }
+
+ /* HERO STYLES START */ 
+
+ .hero img {
+    height: fit-content;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.hero div {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: var(--tertiary-color);
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+.name h2 {
+
+}
+  /* END OF HERO STYLING */
+
+  .info h2 {
+    width: 900px;
+    margin: 0 auto 15px auto;
+    overflow: auto;
+    float: right;
+}
+.info img {
+    float: left;
+    padding: 15px 0 15px 0;
+}
+
+
+#contact-info{
+    float: right;
+}
+
+.info h2 {
+    float: left;
+    
+}
+
+.info p {
+    float: left;
+}
+
+.contact-me h2 {
+    width: 900px;
+    margin: 0 auto 15px auto;
+    overflow: auto;
+    float: left;
+}
