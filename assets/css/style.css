@@ -1,7 +1,7 @@
 :root {
     --primary-color: #bdb9b9; 
     --secondary-color: #45504E;
-    --tertiary-color: #fff;
+    --tertiary-color: #75645C;
   }
 
 * {
@@ -48,7 +48,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: var(--tertiary-color);
+    color: #fff;
   } 
 
 header nav {
@@ -119,7 +119,7 @@ header nav ul {
 
 .section1 {
     float: left;
-    padding: 10px;
+    padding: 20px;
   }
   
 .left {
@@ -148,17 +148,65 @@ header nav ul {
     clear: both;
   }
 
+/* DESIGN STYLING */
+#designs {
+    padding-bottom: 600px;
+}
+
+.section2 {
+    float: left;
+    padding: 20px;  
+}
+
+.s2left {
+    font-size: 26px;
+    font-weight: bold;
+    width: 20%;
+    text-align: right;
+    margin: 0 0 0 60px;
+    color: var(--secondary-color);
+    border-right: 5px solid var(--primary-color);
+    padding-bottom: 600px;
+  }
+
+.pj img{
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+.project2 {
+    height: 2px;
+    width: 25%;
+    float: right;
+}
+
+.project3 {
+    width: 25%;
+    float: right;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 /* CONTACT US/FOOTER STYLING */
-#contact-me {
+footer {
     display: flex;
     justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(--primary-color);
 }
 
 .contact i {
-    padding: 15px 15px;
+    padding: 0 10px 0 10px;
     color: var(--secondary-color)
+
 }
 
 .contact i:hover {
-    color: var(--primary-color);
-}
+    padding-bottom: 5px;
+    color: var(--tertiary-color);
+]
