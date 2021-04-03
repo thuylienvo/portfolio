@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Introduction
-
+Portfolio to showcase my skills and past work to potential employees.
 
 
 ### User Story

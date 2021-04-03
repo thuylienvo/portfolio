@@ -114,7 +114,7 @@ header nav ul {
   /* ABOUT ME STYLING */
 
 #aboutme {
-    padding-bottom: 400px;
+    padding-bottom: 500px;
 }
 
 .section1 {
@@ -130,27 +130,23 @@ header nav ul {
     margin: 0 0 0 60px;
     color: var(--secondary-color);
     border-right: 5px solid var(--primary-color);
-    padding-bottom: 300px;
+    padding-bottom: 350px;
   }
 
 .middle{
+    padding-top: 40px;
     width: 20%;
-    padding-left: 20px;
+    padding-left: 30px;
   }
 
 .right {
+    padding-top: 40px;
     width: 35%;
-  }
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
   }
 
 /* DESIGN STYLING */
 #designs {
-    padding-bottom: 600px;
+    padding-bottom: 500px;
 }
 
 .section2 {
@@ -163,19 +159,31 @@ header nav ul {
     font-weight: bold;
     width: 20%;
     text-align: right;
+    position: absolute;
     margin: 0 0 0 60px;
     color: var(--secondary-color);
     border-right: 5px solid var(--primary-color);
-    padding-bottom: 600px;
+    padding-bottom: 700px;
   }
 
 .pj img{
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding: 40px 0 20px 30px;
   }
 
+.pj img:hover {
+    opacity: 0.5;
+} 
+
+.pjs img {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.pjs img:hover {
+    opacity: 0.5;
+}
+
 .project2 {
-    height: 2px;
     width: 25%;
     float: right;
 }
@@ -209,4 +217,4 @@ footer {
 .contact i:hover {
     padding-bottom: 5px;
     color: var(--tertiary-color);
-]
+}
