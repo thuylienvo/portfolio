@@ -113,6 +113,10 @@ header nav ul {
 
   /* ABOUT ME STYLING */
 
+#aboutme {
+    padding-bottom: 400px;
+}
+
 .section1 {
     float: left;
     padding: 10px;
@@ -144,11 +148,18 @@ header nav ul {
     clear: both;
   }
 
-/* Contact Us styling */
+/* CONTACT US/FOOTER STYLING */
+#smmicons {
+    display: flex;
+    justify-content: center;
+}
 
 
-.contact ul {
-    list-style-type: none;
-  }
+.contact i {
+    padding: 15px 15px;
+    color: var(--secondary-color)
+}
 
-
+.contact i:hover {
+    color: var(--primary-color);
+}
