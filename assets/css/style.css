@@ -114,12 +114,13 @@ header nav ul {
   /* ABOUT ME STYLING */
 
 #aboutme {
+    padding-top: 40px;
     padding-bottom: 500px;
 }
 
 .section1 {
     float: left;
-    padding: 20px;
+    padding-right: 20px;
   }
   
 .left {
@@ -134,70 +135,64 @@ header nav ul {
   }
 
 .middle{
-    padding-top: 40px;
+    padding-top: 50px;
     width: 20%;
     padding-left: 30px;
   }
 
 .right {
-    padding-top: 40px;
-    width: 35%;
+    padding-top: 50px;
+    display:flex;
+    flex-direction:column;
+    --h:80vh;
+    width:var(--h);
   }
-
-/* DESIGN STYLING */
-#designs {
-    padding-bottom: 500px;
-}
-
-.section2 {
-    float: left;
-    padding: 20px;  
-}
-
-.s2left {
-    font-size: 26px;
-    font-weight: bold;
-    width: 20%;
-    text-align: right;
-    position: absolute;
-    margin: 0 0 0 60px;
-    color: var(--secondary-color);
-    border-right: 5px solid var(--primary-color);
-    padding-bottom: 700px;
-  }
-
-.pj img{
-    padding: 40px 0 20px 30px;
-  }
-
-.pj img:hover {
-    opacity: 0.5;
-} 
-
-.pjs img {
-    padding-left: 30px;
-    padding-top: 10px;
-}
-
-.pjs img:hover {
-    opacity: 0.5;
-}
-
-.project2 {
-    width: 25%;
-    float: right;
-}
-
-.project3 {
-    width: 25%;
-    float: right;
-}
 
 .row:after {
     content: "";
     display: table;
     clear: both;
   }
+
+/* DESIGN STYLING */
+#designs {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.designsection h2 {
+  font-size: 26px;
+  padding-right: 20px;
+  font-weight: bold;
+  width: 20%;
+  text-align: right;
+  position: absolute;
+  margin: 0 0 0 60px;
+  color: var(--secondary-color);
+  border-right: 5px solid var(--primary-color);
+  padding-bottom: 810px;
+}
+
+.section2-right {
+    padding: 50px 0px 0px 410px;
+}
+
+.pj img:hover {
+    opacity: 0.5;
+} 
+
+.pjs img:hover {
+    opacity: 0.5;
+}
+
+.projects {
+    padding: 20px 0px 0px 410px;
+}
+
+
 
 /* CONTACT US/FOOTER STYLING */
 footer {
