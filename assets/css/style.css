@@ -115,7 +115,7 @@ header nav ul {
 
 #aboutme {
     padding-top: 40px;
-    padding-bottom: 500px;
+    padding-bottom: 450px;
 }
 
 .section1 {
@@ -156,7 +156,7 @@ header nav ul {
 
 /* DESIGN STYLING */
 #designs {
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

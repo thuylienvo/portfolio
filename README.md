@@ -24,9 +24,11 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
+<img width="1425" alt="portfolio" src="https://user-images.githubusercontent.com/79684575/113502693-b9767500-94e2-11eb-9d21-805feeb010e9.png">
+
 ### Installation
 No installation required, to access this application,
-[ Click here ](https://thuylienvo.github.io/c1coderefractor/) 
+[ Click here ](https://thuylienvo.github.io/portfolio/) 
 
 ### Technology Used 
 * HTML
