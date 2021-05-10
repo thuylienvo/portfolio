@@ -4,15 +4,21 @@
     --tertiary-color: #75645C;
   }
 
-* {
+  section.hero.is-primary.portfolio {
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;  
+  } 
+
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-  }
+  }  */
 
 /* GLOBAL STYLING */
-body {
+/* body {
     font-family: 'Lora', serif;
    }
    
@@ -21,9 +27,9 @@ body {
     font-weight: 300;
     text-transform: uppercase;
    }
-   
+    */
 /* HEADER STYLING*/
-header {
+/* header {
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -73,11 +79,11 @@ header nav ul {
 
   header nav ul li a:hover {
       color: var(--secondary-color);
-  }
+  } */
 
  /* HERO STYLES START */ 
 
- .hero img {
+ /* .hero img {
     height: auto;
     margin-bottom: 25px;
     background-size: cover;
@@ -108,12 +114,12 @@ header nav ul {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+  } */
   /* END OF HERO STYLING */
 
   /* ABOUT ME STYLING */
 
-#aboutme {
+/* #aboutme {
     padding-top: 40px;
     padding-bottom: 450px;
 }
@@ -152,10 +158,10 @@ header nav ul {
     content: "";
     display: table;
     clear: both;
-  }
+  } */
 
 /* DESIGN STYLING */
-#designs {
+/* #designs {
     padding-bottom: 150px;
     display: flex;
     flex-direction: row;
@@ -190,12 +196,12 @@ header nav ul {
 
 .projects {
     padding: 20px 0px 0px 410px;
-}
+} */
 
 
 
 /* CONTACT US/FOOTER STYLING */
-footer {
+/* footer {
     display: flex;
     justify-content: center;
     padding-top: 15px;
@@ -212,4 +218,4 @@ footer {
 .contact i:hover {
     padding-bottom: 5px;
     color: var(--tertiary-color);
-}
+} */
