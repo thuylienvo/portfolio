@@ -161,30 +161,7 @@ header nav ul {
   } */
 
 /* DESIGN STYLING */
-/* #designs {
-    padding-bottom: 150px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
 
-.designsection h2 {
-  font-size: 26px;
-  padding-right: 20px;
-  font-weight: bold;
-  width: 20%;
-  text-align: right;
-  position: absolute;
-  margin: 0 0 0 60px;
-  color: var(--secondary-color);
-  border-right: 5px solid var(--primary-color);
-  padding-bottom: 810px;
-}
-
-.section2-right {
-    padding: 50px 0px 0px 410px;
-}
 
 .section2-right img:hover {
     opacity: 0.5;
@@ -194,9 +171,6 @@ header nav ul {
     opacity: 0.5;
 }
 
-.projects {
-    padding: 20px 0px 0px 410px;
-} */
 
 
 
