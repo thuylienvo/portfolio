@@ -4,11 +4,37 @@
     --tertiary-color: #75645C;
   }
 
+
+/* HERO STYLING */
   section.hero.is-primary.portfolio {
     background-image: url("../images/hero.jpg");
     background-size: cover;
     background-position: center;  
   } 
+
+  .typing-demo {
+    width: 50ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+
 
 /* * {
     box-sizing: border-box;
