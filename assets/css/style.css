@@ -201,21 +201,8 @@ header nav ul {
 
 
 /* CONTACT US/FOOTER STYLING */
-/* footer {
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: var(--primary-color);
-}
-
-.contact i {
-    padding: 0 10px 0 10px;
-    color: var(--secondary-color)
-
-}
 
 .contact i:hover {
     padding-bottom: 5px;
-    color: var(--tertiary-color);
-} */
+    color: var(--secondary-color);
+}
