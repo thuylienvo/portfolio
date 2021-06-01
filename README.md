@@ -23,7 +23,7 @@ Portfolio to showcase my skills and past work to potential employees.
    WHEN I resize the page or view the site on various screens and devices  
    THEN I am presented with a responsive layout that adapts to my viewport  
 
-<img width="1425" alt="portfolio" src="https://user-images.githubusercontent.com/79684575/113502693-b9767500-94e2-11eb-9d21-805feeb010e9.png">
+![portfolio-vs2](https://user-images.githubusercontent.com/79684575/120264173-d9b47d00-c262-11eb-994c-67088eeaae81.png)
 
 ### Installation
 No installation required, to access this application,
